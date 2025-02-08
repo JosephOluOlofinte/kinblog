@@ -1,9 +1,53 @@
+// posts.js
 export const posts = [
-    { title: "Post 1", summary: "This is the summary of post 1.", link: "#" },
-    { title: "Post 2", summary: "This is the summary of post 2.", link: "#" },
-    { title: "Post 3", summary: "This is the summary of post 3.", link: "#" },
-    { title: "Post 4", summary: "This is the summary of post 4.", link: "#" },
-    { title: "Post 5", summary: "This is the summary of post 5.", link: "#" },
-    { title: "Post 6", summary: "This is the summary of post 6.", link: "#" },
-    { title: "Post 7", summary: "This is the summary of post 7.", link: "#" }
-];
+    {
+      id: 1,
+      title: "Post 1 Title",
+      summary: "Summary of post 1...",
+      content: "This is the full content of Post 1. It includes all the details.",
+      coverImage: "images/post1.jpg"
+    },
+    {
+      id: 2,
+      title: "Post 2 Title",
+      summary: "Summary of post 2...",
+      content: "This is the full content of Post 2.",
+      coverImage: "images/post2.jpg"
+    },
+    {
+        id: 3,
+        title: "Post 2 Title",
+        summary: "Summary of post 2...",
+        content: "This is the full content of Post 2.",
+        coverImage: "images/post2.jpg"
+      },
+      {
+        id: 4,
+        title: "Post 2 Title",
+        summary: "Summary of post 2...",
+        content: "This is the full content of Post 2.",
+        coverImage: "images/post2.jpg"
+      },
+      {
+        id: 5,
+        title: "Post 2 Title",
+        summary: "Summary of post 2...",
+        content: "This is the full content of Post 2.",
+        coverImage: "images/post2.jpg"
+      },
+      {
+        id: 2,
+        title: "Post 2 Title",
+        summary: "Summary of post 2...",
+        content: "This is the full content of Post 2.",
+        coverImage: "images/post2.jpg"
+      },
+      {
+        id: 2,
+        title: "Post 2 Title",
+        summary: "Summary of post 2...",
+        content: "This is the full content of Post 2.",
+        coverImage: "images/post2.jpg"
+      },
+  ];
+  
