@@ -38,6 +38,12 @@ main {
     gap: 20px;
 }
 
+article img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
 .posts {
     flex: 2;
 }
