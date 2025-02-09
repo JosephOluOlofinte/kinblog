@@ -1,4 +1,7 @@
 // full-post.js
+
+import { posts } from "./posts.js";
+
 document.addEventListener('DOMContentLoaded', () => {
     const urlParams = new URLSearchParams(window.location.search);
     const postId = parseInt(urlParams.get('id'));  // Get post ID from URL
