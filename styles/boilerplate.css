@@ -1,0 +1,138 @@
+
+@import url('./fonts.css');
+
+html, 
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+    line-height: 1;
+    font-size: 15px;
+}
+
+.contain {
+    max-width: 1920px;
+    margin: 0 auto;
+    /* background-color: white; */
+}
+
+/* Base font styles for the document */
+html {
+    font-size: 16px; /* Default root font size */
+    line-height: 1.6; /* Base line height for readability */
+  }
+  
+  body {
+    background-color: whitesmoke;
+  }
+  body, p, ul, ol {
+    font-size: 1rem; /* 16px for base body text */
+    line-height: 1.5; /* Increase line height slightly for better readability */
+    color: #333; /* Standard text color */
+    font-weight: 400;
+  }
+
+  li {
+    line-height: 1.5;
+  }
+  
+  /* Typography scaling for headings */
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0; /* No default margins */
+    font-weight: 600;
+  }
+  
+  /* Heading font sizes */
+  h1 { font-size: 2.5rem; /* 40px */ }
+  h2 { font-size: 2rem; /* 32px */ }
+  h3 { font-size: 1.75rem; /* 28px */ }
+  h4 { font-size: 1.5rem; /* 24px */ }
+  h5 { font-size: 1.25rem; /* 20px */ }
+  h6 { font-size: 1rem; /* 16px */ }
+
+  article p {
+    text-align: justify;
+    margin-bottom: 25px;
+    line-height: 1.6;
+  }
+
+  article h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 15px;
+  }
+  
+  /* Responsive font scaling */
+  @media (max-width: 768px) {
+    /* Mobile screens (375px to 768px) */
+    body, p, ol, ul {
+      font-size: 0.875rem; /* 14px */
+      line-height: 1.5;
+    }
+
+    li {
+      line-height: 1.5;
+    }
+  
+    h1 { font-size: 2rem; /* 32px */ }
+    h2 { font-size: 1.75rem; /* 28px */ }
+    h3 { font-size: 1.5rem; /* 24px */ }
+    h4 { font-size: 1.25rem; /* 20px */ }
+    h5 { font-size: 1.125rem; /* 18px */ }
+    h6 { font-size: 1rem; /* 16px */ }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Tablet screens (769px to 1024px) */
+    body, p, ol, ul {
+      font-size: 1rem; /* 16px */
+      line-height: 1.5;
+    }
+  
+    h1 { font-size: 2.25rem; /* 36px */ }
+    h2 { font-size: 2rem; /* 32px */ }
+    h3 { font-size: 1.75rem; /* 28px */ }
+    h4 { font-size: 1.5rem; /* 24px */ }
+    h5 { font-size: 1.25rem; /* 20px */ }
+    h6 { font-size: 1.125rem; /* 18px */ }
+  }
+  
+  @media (min-width: 1280px) and (max-width: 1920px) {
+    /* Large screens (1025px to 1920px) */
+    body, p, ol, ul {
+      font-size: 1.125rem; /* 18px */
+      line-height: 1.6;
+    }
+
+    li {
+      line-height: 1.6;
+    }
+  
+    h1 { font-size: 2.75rem; /* 44px */ }
+    h2 { font-size: 2.5rem; /* 40px */ }
+    h3 { font-size: 2.25rem; /* 36px */ }
+    h4 { font-size: 2rem; /* 32px */ }
+    h5 { font-size: 1.75rem; /* 28px */ }
+    h6 { font-size: 1.5rem; /* 24px */ }
+  }
+  
+  @media (min-width: 1921px) {
+    /* Extra-large screens (1921px and above) */
+    body, p, ol, ul {
+      font-size: 1.25rem; /* 20px */
+      line-height: 1.8;
+    }
+
+    li {
+      line-height: 1.8;
+    }
+  
+    h1 { font-size: 3rem; /* 48px */ }
+    h2 { font-size: 2.75rem; /* 44px */ }
+    h3 { font-size: 2.5rem; /* 40px */ }
+    h4 { font-size: 2.25rem; /* 36px */ }
+    h5 { font-size: 2rem; /* 32px */ }
+    h6 { font-size: 1.75rem; /* 28px */ }
+  }
+  
