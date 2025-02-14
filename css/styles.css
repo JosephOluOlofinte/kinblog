@@ -30,7 +30,7 @@ nav ul li a:hover {
     background-color: rgba(10, 28, 143, 0.10);
 }
 
-home-main {
+.home-main {
     display: flex;
     width: 90%;
     max-width: 1400px;
@@ -89,7 +89,7 @@ article img {
     text-decoration: underline;
 }
 
-#post-detail {
+.fullpost-main {
     display: grid;
     background-color: #fff;
     padding: ;
