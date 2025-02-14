@@ -1,5 +1,5 @@
 
-@import url('/fonts.css');
+@import url("/styles/fonts.css");
 
 html, 
 *,
@@ -11,7 +11,6 @@ html,
     min-height: 0;
     line-height: 1;
     font-size: 15px;
-    font-family: 'Figtree';
 }
 
 .contain {
@@ -28,7 +27,7 @@ html {
   
   body {
     background-color: whitesmoke;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: 'Figtree', Verdana, Geneva, Tahoma, sans-serif;
   }
   body, p, ul, ol {
     font-size: 1rem; /* 16px for base body text */
