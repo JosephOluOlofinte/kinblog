@@ -1,6 +1,7 @@
 
 
 
+/* HEADER SECTION */
 header {
     display: flex;
     justify-content: space-between;
@@ -11,6 +12,14 @@ header {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+header a {
+    color: #444;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #5a5959;
+}
 
 nav ul {
     list-style: none;
@@ -30,7 +39,9 @@ nav ul li a:hover {
     background-color: rgba(10, 28, 143, 0.10);
 }
 
-.home-main {
+
+/* HOMEPAGE STYLES */
+main {
     display: flex;
     width: 90%;
     max-width: 1400px;
@@ -58,23 +69,16 @@ article img {
     gap: 20px;
 }
 
+.post-box  h2 a {
+    color: #444;
+}
 .button-box {
     display: flex;
     width: 100%;
     justify-content: end;
 }
-#post-list h3 {
-    margin: 0 0 10px;
-}
 
-.read-more {
-    background: red;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-#post-list a {
+.button-box a {
     background-color: rgb(10, 28, 143);
     text-decoration: none;
     color: #ffffff;
@@ -82,18 +86,10 @@ article img {
     padding: 12px 24px;
     border-radius: 10px;
     width: max-content;
-
 }
 
-#post-list a:hover {
-    text-decoration: underline;
-}
 
-.fullpost-main {
-    display: grid;
-    background-color: #fff;
-    padding: ;
-}
+/* SIDEBAR AND FOOTER */
 .sidebar {
     flex: 1;
     background-color: #fff;
@@ -105,4 +101,21 @@ footer {
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* FULL POST */
+
+.full-post {
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.full-post h1, h2, h3, h4 {
+    margin-bottom: 10px;
+}
+
+.full-post p {
+    margin-bottom: 15px;
 }

@@ -25,6 +25,7 @@
     main {
         display: flex;
         flex-direction: column;
+        width: 95%;
         max-width: 1400px;
         margin: 20px auto;
         gap: 20px;
@@ -41,25 +42,14 @@
         flex: 1;
     }
     
-    #post-list div {
-        padding: 15px;
-        margin-bottom: 15px;
-    }
     
     #post-list h3 {
         margin: 0 0 10px;
     }
+
+
     
-    #post-list a {
-        text-decoration: none;
-        color: #007bff;
-        font-weight: bold;
-    }
-    
-    #post-list a:hover {
-        text-decoration: underline;
-    }
-    
+    /* SIDEBAR AND FOOTER */
     .sidebar {
         flex: 1;
         background-color: #fff;
@@ -72,5 +62,12 @@
         padding: 20px;
         background-color: #fff;
         box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+
+    /* FULLPOST PAGE */
+    .full-post {
+        flex: 1;
+        padding: 15px;
     }
 }

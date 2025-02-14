@@ -2,6 +2,8 @@
 
 
 @media (min-width: 1045px) {
+
+    /* HEADER SECTION */
     header {
         display: flex;
         justify-content: space-between;
@@ -26,6 +28,7 @@
     }
 
 
+    /* HOMEPAGE STYLES */
     main {
         display: flex;
         max-width: 1400px;
@@ -42,12 +45,9 @@
     .posts {
         flex: 3;
     }
+
     
-    #post-list divj {
-        padding: 15px;
-        margin-bottom: 15px;
-    }
-    
+    /* SIDEBAR AND FOOTER */
     
     .sidebar {
         flex: 1;
@@ -61,5 +61,10 @@
         padding: 20px;
         background-color: #fff;
         box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* FULL POST PAGE */
+    .full-post {
+        flex: 3;
     }
 }

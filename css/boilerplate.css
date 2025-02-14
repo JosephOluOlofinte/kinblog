@@ -32,6 +32,10 @@ html {
     font-weight: 400;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   li {
     line-height: 1.5;
   }

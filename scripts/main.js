@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     postList.innerHTML = posts.map(post => `
       <div class="post-box">
         <div>
-          <h2>${post.title}</h2>
+          <h2><a href="full-post.html?id=${post.id}">${post.title}</a></h2>
           <img src="${post.coverImage}" alt="${post.title}">
           <p>${post.summary}</p>
         </div>
@@ -17,9 +17,5 @@ document.addEventListener('DOMContentLoaded', () => {
       </div>
       `).join("");
 
-
-  
-    //   postList.appendChild(postElement);
-    // });
   });
   
