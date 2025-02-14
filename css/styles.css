@@ -30,7 +30,7 @@ nav ul li a:hover {
     background-color: rgba(10, 28, 143, 0.10);
 }
 
-main {
+home-main {
     display: flex;
     width: 90%;
     max-width: 1400px;
@@ -46,27 +46,16 @@ article img {
     margin: 20px 0;
 }
 
-
-#post-list divf {
-    background-color: #fff;
-    padding: 15px;
-    margin-bottom: 15px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
-
 .post-box {
     background-color: #fff;
     padding: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     height: max-content;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .button-box {
@@ -96,12 +85,15 @@ article img {
 
 }
 
-
-
 #post-list a:hover {
     text-decoration: underline;
 }
 
+#post-detail {
+    display: grid;
+    background-color: #fff;
+    padding: ;
+}
 .sidebar {
     flex: 1;
     background-color: #fff;

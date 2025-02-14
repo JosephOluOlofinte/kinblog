@@ -33,6 +33,7 @@ export const posts = [
         `,
       coverImage: "images/post1.jpg"
     },
+    
     {
       id: 2,
       category: "SEO",
@@ -69,7 +70,7 @@ export const posts = [
     {
         id: 3,
         category: "Tips and Tricks",
-        title: "Post 2 Title",
+        title: "Post 3 Title",
         summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam corporis quas aut illo aspernatur! Suscipit temporibus dolores quidem id similique harum necessitatibus ad corrupti quas architecto dolorem cupiditate, corporis veniam.",
         content: `
             <img src="social-media.jpg" alt="Social Media">
@@ -102,7 +103,7 @@ export const posts = [
       {
         id: 4,
         category: "Email Marketing",
-        title: "Post 2 Title",
+        title: "Post 4 Title",
         summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam corporis quas aut illo aspernatur! Suscipit temporibus dolores quidem id similique harum necessitatibus ad corrupti quas architecto dolorem cupiditate, corporis veniam.",
         content: `
             <img src="social-media.jpg" alt="Social Media">
@@ -135,7 +136,7 @@ export const posts = [
       {
         id: 5,
         category: "SEO",
-        title: "Post 2 Title",
+        title: "Post 5 Title",
         summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam corporis quas aut illo aspernatur! Suscipit temporibus dolores quidem id similique harum necessitatibus ad corrupti quas architecto dolorem cupiditate, corporis veniam.",
         content: `
             <img src="social-media.jpg" alt="Social Media">
@@ -166,9 +167,9 @@ export const posts = [
         coverImage: "images/post2.jpg"
       },
       {
-        id: 2,
+        id: 6,
         category: "Social Media",
-        title: "Post 2 Title",
+        title: "Post 6 Title",
         summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam corporis quas aut illo aspernatur! Suscipit temporibus dolores quidem id similique harum necessitatibus ad corrupti quas architecto dolorem cupiditate, corporis veniam.",
         content: `
             <img src="social-media.jpg" alt="Social Media">
@@ -199,9 +200,9 @@ export const posts = [
         coverImage: "images/post2.jpg"
       },
       {
-        id: 2,
+        id: 7,
         category: "SEO",
-        title: "Post 2 Title",
+        title: "Post 7 Title",
         summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam corporis quas aut illo aspernatur! Suscipit temporibus dolores quidem id similique harum necessitatibus ad corrupti quas architecto dolorem cupiditate, corporis veniam.",
         content: `
             <img src="social-media.jpg" alt="Social Media">
