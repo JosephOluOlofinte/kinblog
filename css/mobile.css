@@ -14,10 +14,7 @@
     }
 
     nav ul {
-        list-style: none;
-        display: flex;
-        gap: 20px;
-        padding: 0;
+        display: none;
     }
     
     nav ul li a {
@@ -27,6 +24,7 @@
     
     main {
         display: flex;
+        flex-direction: column;
         max-width: 1400px;
         margin: 20px auto;
         gap: 20px;
@@ -38,8 +36,9 @@
         display: block;
         margin: 20px 0;
     }
+
     .posts {
-        flex: 2;
+        flex: 1;
     }
     
     #post-list div {
