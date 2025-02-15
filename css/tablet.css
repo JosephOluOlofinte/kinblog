@@ -15,6 +15,7 @@
     @media (min-width: 810px) {
         nav ul {
             list-style: none;
+            height: 100%;
             display: flex;
             align-items: center;
             gap: 10px;
