@@ -14,14 +14,18 @@ const filteredPosts = posts.filter(post => post.category === category);
 if (filteredPosts.length === 0) {
     postContainer.innerHTML = `<p>No posts found in this category.</p>`;
 } else {
-    filteredPosts.forEach(post => {
-        const postDiv = document.createElement("div");
-        postDiv.classList.add("post-item");
-        postDiv.innerHTML = `
-            <h3>${post.title}</h3>
+    postContainer.innerHTML = filteredPosts.map(post => `
+        <div class="post-box">
+          <div>
+            <h2><a href="full-post.html?id=${post.id}">${post.title}</a></h2>
+            <div>
+              <img src="${post.coverImage}" alt="${post.title}">
+            </div
             <p>${post.summary}</p>
-            <a href="${post.link}" class="read-more">Read More</a>
-        `;
-        postContainer.appendChild(postDiv);
-    });
+          </div>
+          <div class="button-box">
+            <a href="full-post.html?id=${post.id}">Read More</a>
+          </div>  
+        </div>
+        `).join("");
 }

@@ -18,7 +18,9 @@ if (filteredPosts.length === 0) {
         <div class="post-box">
           <div>
             <h2><a href="full-post.html?id=${post.id}">${post.title}</a></h2>
-            <img src="${post.coverImage}" alt="${post.title}">
+            <div>
+              <img src="${post.coverImage}" alt="${post.title}">
+            </div
             <p>${post.summary}</p>
           </div>
           <div class="button-box">

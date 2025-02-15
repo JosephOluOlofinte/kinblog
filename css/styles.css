@@ -66,6 +66,8 @@ main {
 
 .post-box img {
     width: 100%;
+    border-radius: 20px;
+    aspect-ratio: 16/9;
 }
 
 .button-box {
@@ -91,14 +93,96 @@ article img {
 }
 
 
-
 /* SIDEBAR AND FOOTER */
 .sidebar {
     flex: 1;
-    padding: 20px;
-    background-color: #fff;
     border-radius: 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: grid; 
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 30px;
+    height: fit-content; 
+}
+
+.joseph-olu {
+    background-color: #3D22CF;
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.joseph-olu p {
+    color: #fff;
+    font-weight: 400;
+}
+
+.josepholu-flex {
+    display: flex; 
+    align-items: baseline;
+    gap: 25px;
+}
+
+.josepholu-img {
+    overflow: hidden; 
+    border-radius: 0.5rem; 
+    height: 110px;
+    width: 110px;
+    border: 1px solid rgba(255,255,255,0.5);
+} 
+
+.josepholu-img img {
+    width: 100%;
+}
+
+.josepholu-LI {
+    height: 35px;
+    width: 35px;
+}
+
+.josepholu-LI img {
+    width: 100%;
+}
+
+.josepholu-body {
+    color: #fff;
+    display: grid;
+    gap: 0.75rem;
+}
+
+.josepholu-body p {
+    color: #fff;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #666;
+}
+
+.social-icons {
+    background-color: rgb(10, 28, 143);
+    padding-block: 30px;
+    padding-inline: 25px;
+    display: grid;
+    gap: 15px;
+    border-radius: 10px;
+}
+
+.social-icons p {
+    color: #fff;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icons div {
+    height: 35px;
+    width: 35px;
+}
+
+.icons div img {
+    width: 100%;
 }
 
 footer {
@@ -110,7 +194,6 @@ footer {
 
 
 /* FULL POST */
-
 .full-post {
     flex: 1;
     padding: 20px;
@@ -126,6 +209,7 @@ footer {
 .full-post img {
     max-width: 100%;
     border-radius: 15px;
+    aspect-ratio: 16/9;
 }
 
 .full-post p {
