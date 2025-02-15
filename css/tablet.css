@@ -67,6 +67,7 @@
     /* FULL POST PAGE */
     .full-post {
         flex: 2;
+        padding: 30px;
     }
 
 

@@ -4,6 +4,7 @@ export const posts = [
       id: 1,
       category: "Email Marketing",
       title: "Post 1 Title",
+      author: "Joseph Olu",
       summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam corporis quas aut illo aspernatur! Suscipit temporibus dolores quidem id similique harum necessitatibus ad corrupti quas architecto dolorem cupiditate, corporis veniam.",
       content: `
             <img src="social-media.jpg" alt="Social Media">
@@ -31,13 +32,14 @@ export const posts = [
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloribus voluptate nihil ex ut, nam, obcaecati pariatur commodi rerum eius explicabo. Non, omnis labore animi, numquam, commodi ab ipsa tempora sapiente molestias explicabo at repudiandae.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, quia dignissimos optio sint cum dicta sit amet officia eum placeat illum tenetur a ullam nostrum qui pariatur! Molestias voluptates delectus beatae totam atque voluptate, maxime doloribus blanditiis officia saepe, cum ea, eligendi architecto ad voluptatibus!</p>
         `,
-      coverImage: "images/post1.jpg"
+      coverImage: "../assets/images/blogimg1.png"
     },
     
     {
       id: 2,
       category: "SEO",
       title: "Post 2 Title",
+      author: "Joseph Olu",
       summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam corporis quas aut illo aspernatur! Suscipit temporibus dolores quidem id similique harum necessitatibus ad corrupti quas architecto dolorem cupiditate, corporis veniam.",
       content: `
             <img src="social-media.jpg" alt="Social Media">
@@ -65,12 +67,14 @@ export const posts = [
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloribus voluptate nihil ex ut, nam, obcaecati pariatur commodi rerum eius explicabo. Non, omnis labore animi, numquam, commodi ab ipsa tempora sapiente molestias explicabo at repudiandae.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, quia dignissimos optio sint cum dicta sit amet officia eum placeat illum tenetur a ullam nostrum qui pariatur! Molestias voluptates delectus beatae totam atque voluptate, maxime doloribus blanditiis officia saepe, cum ea, eligendi architecto ad voluptatibus!</p>
         `,
-      coverImage: "images/post2.jpg"
+      coverImage: "../assets/images/blogimg2.jpg"
     },
+
     {
         id: 3,
         category: "Tips and Tricks",
         title: "Post 3 Title",
+        author: "Joseph Olu",
         summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam corporis quas aut illo aspernatur! Suscipit temporibus dolores quidem id similique harum necessitatibus ad corrupti quas architecto dolorem cupiditate, corporis veniam.",
         content: `
             <img src="social-media.jpg" alt="Social Media">
@@ -98,12 +102,14 @@ export const posts = [
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloribus voluptate nihil ex ut, nam, obcaecati pariatur commodi rerum eius explicabo. Non, omnis labore animi, numquam, commodi ab ipsa tempora sapiente molestias explicabo at repudiandae.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, quia dignissimos optio sint cum dicta sit amet officia eum placeat illum tenetur a ullam nostrum qui pariatur! Molestias voluptates delectus beatae totam atque voluptate, maxime doloribus blanditiis officia saepe, cum ea, eligendi architecto ad voluptatibus!</p>
         `,
-        coverImage: "images/post2.jpg"
+        coverImage: "../assets/images/blogimg3.jpg"
       },
+
       {
         id: 4,
         category: "Email Marketing",
         title: "Post 4 Title",
+        author: "Joseph Olu",
         summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam corporis quas aut illo aspernatur! Suscipit temporibus dolores quidem id similique harum necessitatibus ad corrupti quas architecto dolorem cupiditate, corporis veniam.",
         content: `
             <img src="social-media.jpg" alt="Social Media">
@@ -131,12 +137,14 @@ export const posts = [
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloribus voluptate nihil ex ut, nam, obcaecati pariatur commodi rerum eius explicabo. Non, omnis labore animi, numquam, commodi ab ipsa tempora sapiente molestias explicabo at repudiandae.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, quia dignissimos optio sint cum dicta sit amet officia eum placeat illum tenetur a ullam nostrum qui pariatur! Molestias voluptates delectus beatae totam atque voluptate, maxime doloribus blanditiis officia saepe, cum ea, eligendi architecto ad voluptatibus!</p>
         `,
-        coverImage: "images/post2.jpg"
+        coverImage: "../assets/images/blogimg4.jpg"
       },
+
       {
         id: 5,
         category: "SEO",
         title: "Post 5 Title",
+        author: "Joseph Olu",
         summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam corporis quas aut illo aspernatur! Suscipit temporibus dolores quidem id similique harum necessitatibus ad corrupti quas architecto dolorem cupiditate, corporis veniam.",
         content: `
             <img src="social-media.jpg" alt="Social Media">
@@ -164,12 +172,14 @@ export const posts = [
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloribus voluptate nihil ex ut, nam, obcaecati pariatur commodi rerum eius explicabo. Non, omnis labore animi, numquam, commodi ab ipsa tempora sapiente molestias explicabo at repudiandae.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, quia dignissimos optio sint cum dicta sit amet officia eum placeat illum tenetur a ullam nostrum qui pariatur! Molestias voluptates delectus beatae totam atque voluptate, maxime doloribus blanditiis officia saepe, cum ea, eligendi architecto ad voluptatibus!</p>
         `,
-        coverImage: "images/post2.jpg"
+        coverImage: "../assets/images/blogimg5.jpg"
       },
+
       {
         id: 6,
         category: "Social Media",
         title: "Post 6 Title",
+        author: "Joseph Olu",
         summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam corporis quas aut illo aspernatur! Suscipit temporibus dolores quidem id similique harum necessitatibus ad corrupti quas architecto dolorem cupiditate, corporis veniam.",
         content: `
             <img src="social-media.jpg" alt="Social Media">
@@ -197,12 +207,14 @@ export const posts = [
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloribus voluptate nihil ex ut, nam, obcaecati pariatur commodi rerum eius explicabo. Non, omnis labore animi, numquam, commodi ab ipsa tempora sapiente molestias explicabo at repudiandae.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, quia dignissimos optio sint cum dicta sit amet officia eum placeat illum tenetur a ullam nostrum qui pariatur! Molestias voluptates delectus beatae totam atque voluptate, maxime doloribus blanditiis officia saepe, cum ea, eligendi architecto ad voluptatibus!</p>
         `,
-        coverImage: "images/post2.jpg"
+        coverImage: "../assets/images/blogimg1.png"
       },
+      
       {
         id: 7,
         category: "SEO",
         title: "Post 7 Title",
+        author: "Joseph Olu",
         summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam corporis quas aut illo aspernatur! Suscipit temporibus dolores quidem id similique harum necessitatibus ad corrupti quas architecto dolorem cupiditate, corporis veniam.",
         content: `
             <img src="social-media.jpg" alt="Social Media">
@@ -230,7 +242,7 @@ export const posts = [
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloribus voluptate nihil ex ut, nam, obcaecati pariatur commodi rerum eius explicabo. Non, omnis labore animi, numquam, commodi ab ipsa tempora sapiente molestias explicabo at repudiandae.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, quia dignissimos optio sint cum dicta sit amet officia eum placeat illum tenetur a ullam nostrum qui pariatur! Molestias voluptates delectus beatae totam atque voluptate, maxime doloribus blanditiis officia saepe, cum ea, eligendi architecto ad voluptatibus!</p>
         `,
-        coverImage: "images/post2.jpg"
+        coverImage: "../assets/images/blogimg2.jpg"
       },
   ];
   

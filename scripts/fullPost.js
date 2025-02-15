@@ -11,7 +11,12 @@ document.addEventListener('DOMContentLoaded', () => {
     if (post) {
       const postDetail = document.getElementById('post-detail');
       postDetail.innerHTML = `
-        <h2>${post.title}</h2>
+        <div class="post-meta">
+          <h1>${post.title}</h1>
+          <p>
+            By <a href="author.html?author=${post.author}">${post.author} </a> in <a href ="category.html?category=${post.category}">${post.category}</a>
+          </p>
+        </div>
         <img src="${post.coverImage}" alt="${post.title}">
         <p>${post.content}</p>
       `;
