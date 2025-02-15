@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
     if (post) {
       const postDetail = document.getElementById('post-detail');
+      document.title = post.title + " | TheFrontender"
       postDetail.innerHTML = `
         <div class="post-meta">
           <h1>${post.title}</h1>

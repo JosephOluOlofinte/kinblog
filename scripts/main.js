@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
         <div class="button-box">
           <a href="full-post.html?id=${post.id}">Read More</a>
-        </div>  
+        </div>
       </div>
       `).join("");
 

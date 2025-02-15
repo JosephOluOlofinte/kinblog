@@ -2,6 +2,7 @@
 
 import { posts } from "./posts.js";
 
+document.addEventListener('DOMContentLoaded', () => {
 // Get category from URL
 const urlParams = new URLSearchParams(window.location.search);
 const author = urlParams.get("author");
@@ -29,3 +30,4 @@ if (filteredPosts.length === 0) {
         </div>
         `).join("");
 }
+});

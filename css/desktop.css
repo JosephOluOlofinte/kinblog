@@ -25,6 +25,13 @@
         flex: 0 1 67%;
     }
 
+    #post-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 1fr;
+        gap: 20px;
+    }
+    
     .post-box {
         background-color: #fff;
         padding: 20px;

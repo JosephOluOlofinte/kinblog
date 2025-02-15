@@ -67,7 +67,9 @@ main {
     width: 100%;
     border-radius: 20px;
     aspect-ratio: 16/9;
+    margin-bottom: 15px;
 }
+
 
 .button-box {
     display: flex;
@@ -99,13 +101,11 @@ aside {
 }
 .sidebar {
     flex: 1;
-    border-radius: 20px;
     display: grid; 
     grid-template-columns: repeat(1, minmax(0, 1fr));
     gap: 30px;
     height: fit-content; 
 }
-
 
 .joseph-olu {
     background-color: #3D22CF;
@@ -113,7 +113,7 @@ aside {
     gap: 20px;
     width: 100%;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .joseph-olu p {
@@ -219,9 +219,10 @@ footer {
     max-width: 100%;
     border-radius: 15px;
     aspect-ratio: 16/9;
+    margin-block: 15px;
 }
 
-.full-post p {
+.full-post p, ul {
     margin-bottom: 15px;
 }
 
