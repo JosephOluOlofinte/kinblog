@@ -4,6 +4,7 @@ export const posts = [
       id: 1,
       category: "Email Marketing",
       title: "Post 1 Title",
+      url: "post-1",
       author: "Joseph Olu",
       summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam corporis quas aut illo aspernatur! Suscipit temporibus dolores quidem id similique harum necessitatibus ad corrupti quas architecto dolorem cupiditate, corporis veniam.",
       content: `
@@ -39,6 +40,7 @@ export const posts = [
       id: 2,
       category: "SEO",
       title: "Post 2 Title",
+      url: "post-2",
       author: "Joseph Olu",
       summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam corporis quas aut illo aspernatur! Suscipit temporibus dolores quidem id similique harum necessitatibus ad corrupti quas architecto dolorem cupiditate, corporis veniam.",
       content: `
@@ -74,6 +76,7 @@ export const posts = [
         id: 3,
         category: "Tips and Tricks",
         title: "Post 3 Title",
+        url: "post-3",
         author: "Joseph Olu",
         summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam corporis quas aut illo aspernatur! Suscipit temporibus dolores quidem id similique harum necessitatibus ad corrupti quas architecto dolorem cupiditate, corporis veniam.",
         content: `
@@ -109,6 +112,7 @@ export const posts = [
         id: 4,
         category: "Email Marketing",
         title: "Post 4 Title",
+        url: "post-4",
         author: "Joseph Olu",
         summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam corporis quas aut illo aspernatur! Suscipit temporibus dolores quidem id similique harum necessitatibus ad corrupti quas architecto dolorem cupiditate, corporis veniam.",
         content: `
@@ -144,6 +148,7 @@ export const posts = [
         id: 5,
         category: "SEO",
         title: "Post 5 Title",
+        url: "post-5",
         author: "Joseph Olu",
         summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam corporis quas aut illo aspernatur! Suscipit temporibus dolores quidem id similique harum necessitatibus ad corrupti quas architecto dolorem cupiditate, corporis veniam.",
         content: `
@@ -179,6 +184,7 @@ export const posts = [
         id: 6,
         category: "Social Media",
         title: "Post 6 Title",
+        url: "post-6",
         author: "Joseph Olu",
         summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam corporis quas aut illo aspernatur! Suscipit temporibus dolores quidem id similique harum necessitatibus ad corrupti quas architecto dolorem cupiditate, corporis veniam.",
         content: `
@@ -214,6 +220,7 @@ export const posts = [
         id: 7,
         category: "SEO",
         title: "Post 7 Title",
+        url: "post-7",
         author: "Joseph Olu",
         summary: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam corporis quas aut illo aspernatur! Suscipit temporibus dolores quidem id similique harum necessitatibus ad corrupti quas architecto dolorem cupiditate, corporis veniam.",
         content: `

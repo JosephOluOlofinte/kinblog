@@ -95,7 +95,6 @@ article img {
 
 
 /* SIDEBAR AND FOOTER */
-
 aside {
     background: none;
 }
@@ -235,6 +234,17 @@ footer {
     margin-bottom: 30px;
 }
 .post-meta h1 {
+    width: max-content;
+    border-bottom: 2px solid rgb(10, 28, 143);
+}
+
+/* CATEGORY PAGE. MAINLY USES CLASSES FROM HOMEPAGE */
+#title {
+    margin-bottom: 30px;
+    margin-left: 15px;
+} /* Also used in author page */
+
+#title {
     width: max-content;
     border-bottom: 2px solid rgb(10, 28, 143);
 }

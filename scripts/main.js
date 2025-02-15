@@ -2,6 +2,8 @@ import { posts } from "./posts.js";
 
 // main.js
 document.addEventListener('DOMContentLoaded', () => {
+  //code only executes after html is fully loaded
+  
     const postList = document.getElementById('post-list');
 
     postList.innerHTML = posts.map(post => `

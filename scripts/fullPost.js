@@ -1,8 +1,12 @@
+
+
 // full-post.js
 
 import { posts } from "./posts.js";
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => { 
+  //code only executes after html is fully loaded
+
     const urlParams = new URLSearchParams(window.location.search);
     const postId = parseInt(urlParams.get('id'));  // Get post ID from URL
   
