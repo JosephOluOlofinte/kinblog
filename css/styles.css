@@ -12,6 +12,11 @@ header {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+.logo {
+    font-size: 24px;
+    font-weight: 800;
+}
+
 header a {
     color: #444;
     text-decoration: none;
@@ -21,40 +26,26 @@ header a:hover {
     color: #5a5959;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 10px;
-    padding: 0;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    padding: 14px 24px;
-    border-radius: 10px;
-}
-
-nav ul li a:hover {
-    background-color: rgba(10, 28, 143, 0.10);
+@media (max-width: 810px) {
+    nav ul {
+        display: none;
+    }
 }
 
 
 /* HOMEPAGE STYLES */
 main {
     display: flex;
-    width: 90%;
-    max-width: 1400px;
+    flex-direction: column;
+    width: 95%;
+    max-width: 1600px;
     margin: 20px auto;
     padding-top: 50px;
     gap: 20px;
 }
 
-article img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px 0;
+.posts {
+    flex: 1;
 }
 
 .post-box {
@@ -63,7 +54,7 @@ article img {
     margin-bottom: 25px;
     height: max-content;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -72,6 +63,11 @@ article img {
 .post-box  h2 a {
     color: #444;
 }
+
+.post-box img {
+    width: 100%;
+}
+
 .button-box {
     display: flex;
     width: 100%;
@@ -87,12 +83,21 @@ article img {
     border-radius: 10px;
     width: max-content;
 }
+article img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
 
 
 /* SIDEBAR AND FOOTER */
 .sidebar {
     flex: 1;
+    padding: 20px;
     background-color: #fff;
+    border-radius: 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -107,6 +112,8 @@ footer {
 /* FULL POST */
 
 .full-post {
+    flex: 1;
+    padding: 20px;
     background-color: #fff;
     border-radius: 10px;
     text-align: justify;

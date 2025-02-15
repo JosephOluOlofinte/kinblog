@@ -13,27 +13,52 @@
 
     .logo {
         font-size: 28px;
-        font-weight: 800;
-    }
-
-    nav ul {
-        list-style: none;
-        display: flex;
-        padding: 0;
-    }
-    
-    nav ul li a {
-        text-decoration: none;
-        color: #333;
     }
 
 
     /* HOMEPAGE STYLES */
     main {
-        display: flex;
-        max-width: 1400px;
-        margin: 20px auto;
         gap: 40px;
+    }
+
+    .posts {
+        flex: 0 1 67%;
+    }
+
+    .post-box {
+        background-color: #fff;
+        padding: 20px;
+        margin-bottom: 25px;
+        height: max-content;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .post-box  h2 a {
+        color: #444;
+    }
+    
+    .post-box img {
+        width: 100%;
+    }
+    
+    .button-box {
+        display: flex;
+        width: 100%;
+        justify-content: end;
+    }
+    
+    .button-box a {
+        background-color: rgb(10, 28, 143);
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+        padding: 12px 24px;
+        border-radius: 10px;
+        width: max-content;
     }
     
     article img {
@@ -42,15 +67,13 @@
         display: block;
         margin: 20px 0;
     }
-    .posts {
-        flex: 3;
-    }
+    
 
     
     /* SIDEBAR AND FOOTER */
     
     .sidebar {
-        flex: 1;
+        flex: 0 1 33%;
         background-color: #fff;
         padding: 20px;
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -66,5 +89,6 @@
     /* FULL POST PAGE */
     .full-post {
         flex: 3;
+        padding: 30px;
     }
 }

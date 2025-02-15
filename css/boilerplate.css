@@ -75,6 +75,8 @@ html {
 
     li {
       line-height: 1.5;
+      margin-left: 25px;
+      padding-left: 5px;
     }
   
     h1 { font-size: 2rem; /* 32px */ }
