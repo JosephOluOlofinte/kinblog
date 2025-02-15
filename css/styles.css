@@ -1,5 +1,5 @@
 
-
+@import url('/css/fonts.css');
 
 /* HEADER SECTION */
 header {
@@ -104,6 +104,10 @@ article img {
     height: fit-content; 
 }
 
+.sidebar {
+    font-family: 'Raleway';
+}
+
 .joseph-olu {
     background-color: #3D22CF;
     display: grid;
@@ -116,6 +120,7 @@ article img {
 .joseph-olu p {
     color: #fff;
     font-weight: 400;
+    font-family: 'Raleway';
 }
 
 .josepholu-flex {
