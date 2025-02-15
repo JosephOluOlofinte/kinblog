@@ -1,6 +1,7 @@
 
 @import url("fonts.css");
 
+/* CSS RESET */
 html, 
 *,
 *::before,
@@ -13,7 +14,7 @@ html,
 }
 
 
-/* Base font styles for the document */
+/* Base styles for the project */
 html {
     font-size: 16px; /* Default root font size */
     line-height: 1.4; /* Base line height for readability */
@@ -27,7 +28,7 @@ html {
   }
   body, p, ul, ol {
     font-size: 1rem; /* 16px for base body text */
-    line-height: 1.5; /* Increase line height slightly for better readability */
+    line-height: 1.5; 
     color: #444; /* Standard text color */
     font-weight: 400;
   }
@@ -41,20 +42,10 @@ html {
     font-family: 'Raleway', Verdana, Geneva, Tahoma, sans-serif;
   }
 
-
-  /* Typography scaling for headings */
   h1, h2, h3, h4, h5, h6 {
     margin: 0; /* No default margins */
     font-weight: 600;
   }
-  
-  /* Heading font sizes */
-  h1 { font-size: 2.5rem; /* 40px */ }
-  h2 { font-size: 2rem; /* 32px */ }
-  h3 { font-size: 1.75rem; /* 28px */ }
-  h4 { font-size: 1.5rem; /* 24px */ }
-  h5 { font-size: 1.25rem; /* 20px */ }
-  h6 { font-size: 1rem; /* 16px */ }
 
   article p {
     text-align: justify;
@@ -64,24 +55,22 @@ html {
 
   article h1, h2, h3, h4, h5, h6 {
     margin-bottom: 15px;
-    font-family: 'Figtree';
+    font-family: 'Figtree', Verdana, Geneva, Tahoma, sans-serif;
   }
   
   /* Responsive font scaling */
   @media (max-width: 768px) {
-    /* Mobile screens (375px to 768px) */
+    /* Mobile screens (up to 768px) */
     body, p, ol, ul, li {
       font-size: 0.875rem; /* 14px */
       line-height: 1.5;
     }
 
-  
-    h1 { font-size: 2rem; /* 32px */ }
-    h2 { font-size: 1.75rem; /* 28px */ }
-    h3 { font-size: 1.5rem; /* 24px */ }
-    h4 { font-size: 1.25rem; /* 20px */ }
-    h5 { font-size: 1.125rem; /* 18px */ }
-    h6 { font-size: 1rem; /* 16px */ }
+    h1 { font-size: 1.75rem; /* 28px */ }
+    h2 { font-size: 1.5rem; /* 24px */ }
+    h3 { font-size: 1.25rem; /* 20px */ }
+    h4 { font-size: 1.125rem; /* 18px */ }
+    h5 { font-size: 1rem; /* 16px */ }
   }
   
   @media (min-width: 769px) and (max-width: 1024px) {
